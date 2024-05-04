@@ -1,0 +1,90 @@
+{
+    "name": "nikhil sai ankilla",
+    "email": "nikhilsaiankilla@gmail.com",
+    "phone": "8374056888",
+    "github": "https://github.com/nikhilsaiankilla",
+    "linkedin": "https://www.linkedin.com/in/nikhilsaiankilla/",
+    "leetcode": "https://leetcode.com/u/nikhilsai24/",
+    "projects": [
+        {
+            "id": "p-1",
+            "pName": "Spotify Clone Using React",
+            "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+            "code": "https://github.com/nikhilsaiankilla/SpotifyCloneReact",
+            "demo": "https://spotifyclone-nikhil.vercel.app/login",
+            "image": "https://www.befunky.com/images/wp/wp-2020-12-playlist-covers-1-scaled.jpg?auto=avif,webp&format=jpg&width=944"
+        }
+    ],
+    "skills": [
+        {
+            "id": "s-1",
+            "sName": "React js",
+            "level": "advanced"
+        },
+        {
+            "id": "s-2",
+            "sName": "Redux",
+            "level": "advanced"
+        },
+        {
+            "id": "s-4",
+            "sName": "CSS3",
+            "level": "advanced"
+        },
+        {
+            "id": "s-5",
+            "sName": "Javascript",
+            "level": "advanced"
+        },
+        {
+            "id": "s-6",
+            "sName": "Tailwind css",
+            "level": "advanced"
+        },
+        {
+            "id": "s-7",
+            "sName": "SCSS",
+            "level": "advanced"
+        },
+        {
+            "id": "s-3",
+            "sName": "HTML5",
+            "level": "advanced"
+        },
+        {
+            "id": "s-8",
+            "sName": "git",
+            "level": "advanced"
+        },
+        {
+            "id": "s-9",
+            "sName": "Github",
+            "level": "advanced"
+        },
+        {
+            "id": "s-10",
+            "sName": "Node JS",
+            "level": "advanced"
+        },
+        {
+            "id": "s-11",
+            "sName": "express js",
+            "level": "advanced"
+        },
+        {
+            "id": "s-12",
+            "sName": "my sql",
+            "level": "advanced"
+        },
+        {
+            "id": "s-13",
+            "sName": "JAVA",
+            "level": "intermediate"
+        },
+        {
+            "id": "s-14",
+            "sName": "GSAP",
+            "level": "intermediate"
+        }
+    ]
+}
