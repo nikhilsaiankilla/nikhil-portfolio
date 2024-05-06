@@ -114,51 +114,25 @@ const ContactSection = () => {
                     <p className={`text-sm md:text-lg capitalize ${isError === " " ? "hidden" : "block"} mt-5`}>Message sent successfully</p>
                 </form>
 
-                <div className="flex-1">
-                    <ul className="w-fit h-fit flex justify-center flex-col gap-4">
-                        <li className="flex items-center gap-2 text-lg md:text-xl">
-                            <FaLinkedin className="text-[#0A66C2]" />
-                            <a href="https://leetcode.com/u/nikhilsai24/" target='_blank' rel='noopener noreferrer' className='capitailize font-semibold'>
-                                @nikhilsaiankilla
-                            </a>
-                        </li>
-                        <li className="flex items-center gap-2 text-lg md:text-xl">
-                            <SiLeetcode className="text-[#FFA116]" />
-                            <a href="https://leetcode.com/u/nikhilsai24/" target='_blank' rel='noopener noreferrer' className='capitailize font-semibold'>
-                                @nikhilsai24
-                            </a>
-                        </li>
-                        <li className="flex items-center gap-2 text-lg md:text-xl">
-                            <FaGithub className="text-[#1F2328]" />
-                            <a href="https://leetcode.com/u/nikhilsai24/" target='_blank' rel='noopener noreferrer' className='capitailize font-semibold'>
-                                @nikhilsaiankilla
-                            </a>
-                        </li>
-                        <li className="flex items-center gap-2 text-lg md:text-xl">
-                            <FaSquareXTwitter className="text-[#0F1419]" />
-                            <a href="https://leetcode.com/u/nikhilsai24/" target='_blank' rel='noopener noreferrer' className='capitailize font-semibold'>
-                                @NikhilsaiAnkil1
-                            </a>
-                        </li>
-                        <li className="flex items-center gap-2 text-lg md:text-xl">
-                            <SiGmail className="text-[#CD433F]" />
-                            <a href="https://leetcode.com/u/nikhilsai24/" target='_blank' rel='noopener noreferrer' className='capitailize font-semibold'>
-                                nikhilsaiankilla@gmail.com
-                            </a>
-                        </li>
-                        <li className="flex items-center gap-2 text-lg md:text-xl">
-                            <FaFilePdf className="text-[#EA4335]" />
-                            <a href="https://leetcode.com/u/nikhilsai24/" target='_blank' rel='noopener noreferrer' className='capitailize font-semibold'>
-                                resume
-                            </a>
-                        </li>
-                        <li className="flex items-center gap-2 text-lg md:text-xl">
-                            <FaLocationDot className="text-[#EA4335]" />
-                            <a href="https://leetcode.com/u/nikhilsai24/" target='_blank' rel='noopener noreferrer' className='capitailize font-semibold'>
-                                Hyderabad, India, 501506
-                            </a>
-                        </li>
-                    </ul>
+                <div className="flex-1 flex items-center justify-between gap-3 h-full bg-red-300">
+                    <span className="text-4xl p-3 text-[#00649F]">
+                        <SiGmail />
+                    </span>
+                    <span className="text-4xl p-3 text-[#00649F]">
+                        <SiLeetcode />
+                    </span>
+                    <span className="text-4xl p-3 text-[#00649F]">
+                        <SiGmail />
+                    </span>
+                    <span className="text-4xl p-3 text-[#00649F]">
+                        <SiGmail />
+                    </span>
+                    <span className="text-4xl p-3 text-[#00649F]">
+                        <SiGmail />
+                    </span>
+                    <span className="text-4xl p-3 text-[#00649F]">
+                        <SiGmail />
+                    </span>
                 </div>
             </div>
         </Wrapper>

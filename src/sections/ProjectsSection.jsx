@@ -4,16 +4,16 @@ import Wrapper from '../components/Wrapper'
 
 const ProjectsSection = () => {
     return (
-        <Wrapper className="bg-primary-color">
+        <Wrapper>
             <SectionTitle title="my projects" />
-            <div className='w-full flex flex-col'>
-                <div className='w-full flex flex-col md:flex-row items-center justify-between'>
-                    <Project className="flex-[2]" cover="https://a.storyblok.com/f/99519/1100x619/1bd432fd52/website-project-management-build-phase.png/m/2160x1215/filters:format(png)" />
-                    <Project className="flex-[1]" cover="https://a.storyblok.com/f/99519/1100x619/1bd432fd52/website-project-management-build-phase.png/m/2160x1215/filters:format(png)" />
+            <div className='w-full flex flex-col gap-2 md:gap-4 mt-5 md:mt-7 bg-red-200'>
+                <div className='w-full flex flex-col md:flex-row gap-2 md:gap-4'>
+                    <Project className="w-full md:w-[60%]" bgImg="https://s3-alpha.figma.com/hub/file/1868768632/319bab1e-752e-460b-83d6-a5b8fa5067c8-cover.png" />
+                    <Project className="w-full md:w-[40%]" bgImg="https://s3-alpha.figma.com/hub/file/1868768632/319bab1e-752e-460b-83d6-a5b8fa5067c8-cover.png" />
                 </div>
-                <div className='w-full flex flex-col md:flex-row items-center justify-between'>
-                    <Project className="flex-[1]" cover="https://a.storyblok.com/f/99519/1100x619/1bd432fd52/website-project-management-build-phase.png/m/2160x1215/filters:format(png)" />
-                    <Project className="flex-[2]" cover="https://a.storyblok.com/f/99519/1100x619/1bd432fd52/website-project-management-build-phase.png/m/2160x1215/filters:format(png)" />
+                <div className='w-full flex flex-col md:flex-row gap-2 md:gap-4'>
+                    <Project className="w-full md:w-[40%]" bgImg="https://s3-alpha.figma.com/hub/file/1868768632/319bab1e-752e-460b-83d6-a5b8fa5067c8-cover.png" />
+                    <Project className="w-full md:w-[60%]" bgImg="https://s3-alpha.figma.com/hub/file/1868768632/319bab1e-752e-460b-83d6-a5b8fa5067c8-cover.png" />
                 </div>
             </div>
         </Wrapper>

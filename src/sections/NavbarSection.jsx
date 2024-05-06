@@ -32,7 +32,7 @@ const NavbarSection = () => {
                 }
             </span>
 
-            <ul className={`justify-start px-6 sm:px-14 gap-8 md:hidden flex pt-8 flex-col absolute left-0 w-full h-screen bg-white ${isNavOpen ? "top-24" : "top-[-800%]"} transition-all duration-500 ease-linear`}>
+            <ul className={`justify-start px-6 sm:px-14 gap-8 md:hidden flex pt-8 flex-col absolute ${isNavOpen ? "left-0" : "left-[-100%]"} top-20 w-screen h-screen bg-white transition-all duration-500 ease-linear`}>
                 <li className='font-semibold capitalize text-black text-xl'><a a href="/" rel='noopener noreferrer' >home</a></li>
                 <li className='font-semibold capitalize text-black text-xl'><a a href="/" rel='noopener noreferrer' >about me</a></li>
                 <li className='font-semibold capitalize text-black text-xl'><a a href="/" rel='noopener noreferrer' >my projects</a></li>

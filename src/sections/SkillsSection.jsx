@@ -11,7 +11,7 @@ const SkillsSection = () => {
                 {
                     MyData?.skills?.map(skills => (
                         <div className='flex items-center justify-center flex-col' key={skills?.id}>
-                            <div className='w-[100px] h-[100px] md:w-[150px] md:h-[150px]'>
+                            <div className='w-[120px] h-[120px] md:w-[150px] md:h-[150px]'>
                                 <img src="https://miro.medium.com/v2/resize:fit:800/1*bc9pmTiyKR0WNPka2w3e0Q.png" alt="skills logo" className='w-full h-full object-contain' />
                             </div>
                             <span className='p-2 flex flex-col items-center justify-center'>
