@@ -4,8 +4,8 @@ import emailjs from '@emailjs/browser';
 import SectionTitle from "../components/SectionTitle"
 import Wrapper from "../components/Wrapper"
 
-import { FaGithub, FaLinkedin } from "react-icons/fa";
-import { FaFilePdf, FaSquareXTwitter, FaLocationDot } from "react-icons/fa6";
+import { FaGithub, FaLinkedin, FaHome } from "react-icons/fa";
+import { FaSquareXTwitter } from "react-icons/fa6";
 import { SiGmail, SiLeetcode } from "react-icons/si";
 import Spinner from "../components/Spinner";
 
@@ -114,25 +114,25 @@ const ContactSection = () => {
                     <p className={`text-sm md:text-lg capitalize ${isError === " " ? "hidden" : "block"} mt-5`}>Message sent successfully</p>
                 </form>
 
-                <div className="flex-1 flex items-center justify-between gap-3 h-full bg-red-300">
-                    <span className="text-4xl p-3 text-[#00649F]">
-                        <SiGmail />
-                    </span>
-                    <span className="text-4xl p-3 text-[#00649F]">
-                        <SiLeetcode />
-                    </span>
-                    <span className="text-4xl p-3 text-[#00649F]">
-                        <SiGmail />
-                    </span>
-                    <span className="text-4xl p-3 text-[#00649F]">
-                        <SiGmail />
-                    </span>
-                    <span className="text-4xl p-3 text-[#00649F]">
-                        <SiGmail />
-                    </span>
-                    <span className="text-4xl p-3 text-[#00649F]">
-                        <SiGmail />
-                    </span>
+                <div className="flex-1 flex flex-col items-center justify-center">
+                    <ul className="flex flex-col items-start justify-start gap-3">
+                        <li className="flex items-center justify-center gap-2 md:gap-5 text-lg md:text-2xl"><FaHome /> Hyderabad,Telangana,India</li>
+                        <li className="flex items-center justify-center gap-2 md:gap-5 text-lg md:text-2xl"><SiGmail /> nikhilsaiankilla@gmail.com</li>
+                    </ul>
+                    <div className="flex items-center justify-center gap-2 md:gap-4 mt-5 md:mt-7">
+                        <FaGithub className="text-4xl cursor-pointer" onClick={() => {
+                            window.open('https://github.com/nikhilsaiankilla')
+                        }} />
+                        <FaLinkedin className="text-4xl cursor-pointer" onClick={() => {
+                            window.open('https://www.linkedin.com/in/nikhilsaiankilla/')
+                        }} />
+                        <FaSquareXTwitter className="text-4xl cursor-pointer" onClick={() => {
+                            window.open('https://twitter.com/NikhilsaiAnkil1/')
+                        }} />
+                        <SiLeetcode className="text-4xl cursor-pointer" onClick={() => {
+                            window.open('https://leetcode.com/u/nikhilsai24/')
+                        }} />
+                    </div>
                 </div>
             </div>
         </Wrapper>

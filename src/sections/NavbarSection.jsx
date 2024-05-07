@@ -3,11 +3,12 @@ import { logo } from './../assests/index'
 
 import { RiMenu2Fill } from "react-icons/ri";
 import { IoMdClose } from "react-icons/io";
+import { useParams } from 'react-router-dom';
 
 const NavbarSection = () => {
 
     const [isNavOpen, setIsNavOpen] = useState(false);
-    const [active, isActive] = useState("/")
+    const [active, setIsActive] = useState("/")
 
     return (
         <nav className="w-full py-6 px-6 sm:px-14 md:px-20 flex items-center justify-between bg-primary-color relative">
